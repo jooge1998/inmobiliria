@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* nav */
+
+ .nav{
+        height: 5rem;
+        background: #48aa21 ;
+        display: flex;
+        flex-direction: row;
+        padding: 4px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid gray;
+    
+    }
+    .ul{
+        list-style: none;
+     
+    }
+    .li{
+        display: inline-block;
+        margin: 0 12px;
+        
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    
+
+/* logo */
+
+
+.img-logo{
+	height: 50px;
+	width: auto;
+
+}
+.img-logo:hover{
+	cursor: pointer;
+}    
+
+
+
+
+
+/* Footer */
+
+
+.footer{
+    padding: 30px;
+    margin-top: 5rem;
+    height: 250px;
+    background:rgb(17, 17, 17);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    
+    }
+    
+    .address{
+    margin: 1rem 2px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    }
+    
+    .contact a{
+    text-decoration: none;
+    color: #999999;
+    font-size: .9rem;
+    margin-top: .5rem;
+    
+    }
+    
+    .contact a:hover{
+    color: white;
+    }
+    
+    .contact a i{
+    margin-right: .6rem;
+    }
+    
+    .title-autores{
+    color: white;
+    margin-bottom: 10px;
+    }
+	.footer .der .container-autores p:hover{
+		color: white;
+	}
+    
+    .about{
+    color:#999999;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 1rem;
+    }
+    
+    .parragraph{
+    margin-top: 0.7rem;
+    color: gray;
+    
+    }
+
+    .footer .text{
+    margin-top: 1.5rem;
+    text-align: center;
+    align-self: center;
+    
+    }
+    
+    .icon a{
+    text-decoration: none;
+    }
+    
+    .icon i{
+    font-size: 20px;
+    color: gray;
+    padding: 11px;
+    margin-top: 7px;
+    margin-left: 13px;
+    }
+    
+    .icon i:hover{
+    
+    color: white;    
+    }
+    
+    .autores{
+    color: gray;
+    }
+
+    .der{
+        margin-top: 1rem;
+    }

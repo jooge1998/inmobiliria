@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+body {
+    font-family: 'Raleway', sans-serif !important;
+    color: #555555 !important;
+}
+
+.content {
+    max-width: 1024px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    /*padding: 15px 5px 10px 5px;*/
+}
+
+.bg-color {
+    background-color: #f3f3f3;
+}
+
+.wrap-container {
+    min-height: 350px;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    min-height: 11vh;
+}
+
+section {
+    overflow: hidden;
+}
+
+.section-convocatorias{
+    min-height: 59vh;
+}
+
+.container-lg {
+    width: 95%;
+    height: auto;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+.bg {
+    background-size: cover;
+    width: 100%;
+    height: 220px;
+}
+
+.bg-index {
+    background: url('./IMG/img.jpg') center center;
+    background-color: #777;
+    background-blend-mode: multiply;
+}
+
+.bg-offers {
+    background: url('./IMG/img.jpg') center bottom;
+    background-color: #777;
+    background-blend-mode: multiply;
+}
+
+.t-title {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+
+/*-- Navegacion --*/
+
+.nav-link {
+    /*border-bottom: 1px solid none;*/
+    color: #888 !important;
+    transition: .3s all;
+    margin-bottom: 0px !important;
+    font-size: 1rem;
+    letter-spacing: -.8px;
+}
+
+.nav-link:hover {
+    color: #888 !important;
+    transition: .3s all;
+    font-weight: bold;
+}
+
+.selected {
+    color: #888 !important;
+    font-weight: bold;
+}
+
+
+/*-- --*/
+
+.text-legend {
+    /*border-bottom: 2px solid #c4b700;*/
+    border-bottom: 2px solid #679f51;
+    color: #f5f5f5;
+    font-size: 2rem;
+    margin: 7% 0 0 0;
+    /*max-width: 450px;*/
+    padding: 0px 10px;
+    font-family: 'Oswald', sans-serif !important;
+}
+
+
+/*-- Section: convocatorias --*/
+
+.t-offers {
+    background-color: #e2e2e2;
+}
+
+.box-filters {
+    box-sizing: border-box;
+    border-radius: 3px;
+    color: #888;
+    font-size: .9rem;
+    padding: 5px 10px;
+}
+
+.link-filter {
+    color: #888 !important;
+    padding: .0rem .0rem !important;
+}
+
+.filter-for,
+.link-filter:hover {
+    color: #006b24 !important;
+    text-decoration: none !important;
+}
+
+.title-job {
+    color: #006b24;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.title-emp {
+    font-size: .9rem;
+}
+
+.link-ofer,
+.link-ofer:hover {
+    text-decoration: none;
+    color: #888 !important;
+}
+
+.box-card {
+    width: 90% !important;
+}
+
+.card-body {
+    padding: .9rem 1.1rem !important;
+}
+
+.card-ofer {
+    transition: .5s all;
+}
+
+.card-ofer:hover {
+    background-color: #ececec;
+}
+
+.date-ofer {
+    color: #006b24;
+    font-size: 1rem;
+}
+
+.content-card {
+    border: 1px solid #c8cfe1;
+    border-radius: 3px;
+    padding: 10px 10px;
+}
+
+p.f-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100ch;
+}
+
+
+/*-- Detalle convocotaria --*/
+
+.details-offers {
+    min-height: 400px;
+}
+
+.btn-success {
+    background-color: #006b24;
+    border-radius: 3px;
+    color: #e2e2e2;
+    font-weight: none;
+}
+
+.link-back,
+.link-back a {
+    color: #006b24;
+    font-style: none;
+    font-weight: bold;
+}
+
+.link-back:hover,
+.link-back a:hover {
+    color: #555555;
+    font-style: none;
+    text-decoration: none !important;
+}
+
+.link-admin,
+.link-admin a {
+    color: #888;
+    font-style: none;
+    font-weight: none;
+}
+
+.link-admin:hover,
+.link-admin a:hover {
+    color: #555555;
+    font-style: none;
+    text-decoration: none !important;
+}
+
+
+/*-- Login --*/
+
+.row-two {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.bg-login {
+    background: url('../images/bg-login3.jpeg') center;
+    background-color: #ccc;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wrap-left {
+    background-color: rgba(255, 255, 255);
+    min-height: 100vh;
+    width: 100%;
+    padding: 30px;
+}
+
+.wrap-right {
+    background: url('../images/bg-login-3.jpg');
+    background-color: #e0e0e0;
+    background-blend-mode: darken;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.bg-form {
+    background-color: white;
+    width: 100%;
+}
+
+.link-new {
+    color: #006b24;
+    transition: .5s all;
+}
+
+.link-new:hover {
+    color: #555;
+    font-style: none;
+}
+
+.img-sesion{
+    max-width: 280px;
+    width: 100%;
+}
+
+.img-header{
+    max-width: 320px;
+    width: 100%;
+}
+
+/*-- Footer --*/
+
+footer {
+    background-color: #212121;
+    color: #888;
+    width: 100%;
+    min-height: 30vh;
+    font-size: .9rem;
+}
+
+.box-icon {
+    border: 1px solid #555555;
+    border-radius: 100%;
+    box-sizing: border-box;
+    width: 34px;
+    height: 34px;
+    padding: 9px;
+    text-align: center;
+    transition: .5s all;
+}
+
+a.fb,
+a.tw {
+    color: #555555 !important;
+    transition: .5s all;
+}
+
+a.fb:hover>.box-icon {
+    border: 1px solid #3858a0;
+    background-color: #3858a0 !important;
+    color: #f5f5f5 !important;
+}
+
+a.tw:hover>.box-icon {
+    border: 1px solid #00a6e9;
+    background-color: #00a6e9 !important;
+    color: #f5f5f5 !important;
+}
+
+hr.line {
+    border-top: 1px solid #444 !important;
+}
+
+a.terms {
+    color: #888;
+    font-weight: bold;
+}
+
+.title-f {
+    color: #669f50;
+}
+
+/*-- Profile User --*/
+
+.avatar_user {
+    width: 28px;
+    height: 28px;
+    border-radius: 2px;
+    margin: 0px 5px;
+}
+
+.avatar_profile {
+    max-width: 200px;
+    margin: 0px auto;
+}
+
+.icon-profile {
+    color: #c8cfe1;
+}
+
+.dropdown-item {
+    font-size: .9rem;
+}
+
+.dropdown-item:focus {
+    background-color: #f3f3f3 !important;
+    color: #888 !important;
+}
+
+.box-small {
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 100%;
+    overflow: hidden;
+}
+
+.t-box-small {
+    background-color: #e9ecef;
+    color: #006b24;
+    width: 100%;
+    padding: 10px 20px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.b-box-small {
+    background-color: #fff;
+    padding: 20px 20px;
+}
+
+.t-medium {
+    font-size: .9rem;
+}
+
+
+/*-- Edit Profile --*/
+
+.content-form {
+    max-width: 1024px;
+    margin: 0px auto;
+    /*padding: 20px;*/
+}
+
+.content-form-small {
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+.form-check {
+    padding-left: 2rem !important;
+}
+
+.form-check-input {
+    margin-left: -1.2rem !important;
+}
